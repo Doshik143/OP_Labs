@@ -1,0 +1,56 @@
+# Компільовані файли
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Бекапи та тимчасові файли
+*~
+*.bak
+*.tmp
+*.log
+
+# Кеші та сесії
+*.cache
+*.gch
+*.pch
+
+# Директорії IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Visual Studio
+*.vcxproj*
+*.sln
+*.opensdf
+*.sdf
+*.ipch
+*.db
+*.tlog/
+*.log
+*.idb
+*.pdb
+Debug/
+Release/
+x64/
+x86/
+.vs/
+
+# Qt
+*.pro.user
+*.qmake.stash
+
+# CLion
+cmake-build-*/
